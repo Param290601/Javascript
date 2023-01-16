@@ -29,16 +29,16 @@
 // }
 // details("param","Tilva",21);
 
-function buttonclicked(){    
-    console.log("button click");
+// function buttonclicked(){    
+//     console.log("button click");
     
-    var inputext = document.getElementsByClassName("input")
-    document.getElementById("text").innerHTML = "Name is" + inputext[0].value;
-    // console.log(document.getElementById("text").innerHTML)
-}
+//     var inputext = document.getElementsByClassName("input")
+//     document.getElementById("text").innerHTML = "Name is" + inputext[0].value;
+//     // console.log(document.getElementById("text").innerHTML)
+// }
 
-var btn = document.getElementById("button");
-btn.addEventListener("click", buttonclicked); 
+// var btn = document.getElementById("button");
+// btn.addEventListener("click", buttonclicked); 
 
 // var car = ["i10","i20","creta"];
 // console.log(car)
@@ -72,23 +72,23 @@ btn.addEventListener("click", buttonclicked);
 // var s = "6"
 // console.log(newfunc(a,s))
 
-function  newfunc(one,two){
-    var int = 0
+// function  newfunc(one,two){
+//     var int = 0
     
-    if(typeof a !== "undefined"){
-        int = a 
-        return int
+//     if(typeof a !== "undefined"){
+//         int = a 
+//         return int
         
-    }
-    else{
-        console.log("undefined")
-    }
+//     }
+//     else{
+//         console.log("undefined")
+//     }
     
-}
-var a ;
-var b = "ksjdnf"
-var newobj = newfunc(a,b)
-console.log(newobj)
+// }
+// var a ;
+// var b = "ksjdnf"
+// var newobj = newfunc(a,b)
+// console.log(newobj)
 
 var a = ['1','6','4','2','200']
 a.sort(function (c , b) {
